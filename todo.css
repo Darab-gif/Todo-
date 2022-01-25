@@ -1,0 +1,112 @@
+body{
+    background: #abc;
+    text-align: center;
+    
+}
+
+.body h2{
+    text-transform: uppercase;
+    text-shadow: 2px 4px 6px gray;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #fff;
+}
+
+.body p{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    background: #fff;
+
+}
+
+.box{
+    height: 40px;
+    width: 50%;
+    background: #d1d3d4;
+    border-radius: 38px;
+    
+    margin-left: 25%;
+    padding: 25px;
+    box-shadow: 6px -6px 8px #9d9d9d,
+                -6px 6px 8px #ffffff;
+    
+}
+
+
+
+.box input[type="text"]{
+    width: 70%;
+    padding: 10px;
+    border-radius: 38px;
+    background: #d1d3d4;
+    box-shadow: 6px -6px 8px #9d9d9d,
+                -6px 6px 8px #ffffff;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    outline: none;
+}
+
+.box button{
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 38px;
+    border: none;
+    color: #fff;
+    background: #0d75ec;
+    margin-left: 5px;
+    box-shadow: 6px -6px 8px #9d9d9d,
+                -6px 6px 8px #ffffff;
+}
+
+.box button:hover{
+    background: #f2a1c2;
+    color: gray;
+}
+
+.task{
+    width: 50%;
+    margin-top: 23px;
+    
+    list-style: none;
+    background: #d1d3d4;
+    border-radius: 38px;
+    position:relative;
+    margin-left: 25%;
+    padding: 25px;
+    box-shadow: 6px -6px 8px #9d9d9d,
+                -6px 6px 8px #ffffff;
+    
+}
+
+.task li{
+    height: 15px;
+    width: 80%;
+    background: #d1d3d4;
+    border-radius: 38px;
+    margin: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px;
+    box-shadow: 6px -6px 8px #9d9d9d,
+                -6px 6px 8px #ffffff;
+    
+}
+
+.close{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: red;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 5px;
+
+}
